@@ -1,0 +1,30 @@
+/*///////////////////////////////////////////////////////////////// Fonts */
+@font-face {
+    font-family: 'MiSansKhmer';
+    src: url('fonts/MiSansKhmer-Normal.woff2') format('woff2');
+    src: url('fonts/MiSansKhmer-Normal.woff') format('woff');
+}
+@font-face {
+    font-family: 'MiSansEnglish';
+    src: url('fonts/MiSansLatin-Normal.woff2') format('woff2');
+    src: url('fonts/MiSansLatin-Normal.woff') format('woff');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MiSansEnglih', 'MiSansKhmer', sans-serif;
+ 
+}
+
+/*///////////////////////////////////////////////////////////////// Root */
+:root {
+    --primary-bg: ;
+    --secondary-bg: ;
+    --accent-color: ;
+    --text-primary: ;
+    --text-secondary: ;
+    --bordor-color: ;
+    --card-bg: ;
+    --hover-bg: ;
+}
