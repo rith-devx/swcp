@@ -19,12 +19,40 @@
 
 /*///////////////////////////////////////////////////////////////// Root */
 :root {
-    --primary-bg: ;
-    --secondary-bg: ;
-    --accent-color: ;
-    --text-primary: ;
-    --text-secondary: ;
-    --bordor-color: ;
-    --card-bg: ;
-    --hover-bg: ;
+    --primary-bg: #121212;
+    --secondary-bg: #1e1e1e;
+    --accent-color: #00c3ff;
+    --text-primary: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --bordor-color: #333;
+    --card-bg: #252525;
+    --hover-bg: #333333;
+}
+
+/*///////////////////////////////////////////////////////////////// Body */
+body {
+    background-color: var(--primary-bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+header {
+    background-color: var(--secondary-bg);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--bordor-color);
+}
+.header-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+;
 }
